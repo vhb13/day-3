@@ -1,0 +1,67 @@
+* {margin: 0}
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    background-image:url(https://images.pexels.com/photos/1646311/pexels-photo-1646311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 150%;}
+header{
+    margin-top:0;
+    padding-top: 20px;
+    background-color: rgb(81, 91, 61);
+    width:100%;
+    opacity: calc(70%);
+    position:absolute;
+    color:white;
+    text-align: center;
+    height: 2.5cm;
+}
+#about{
+    padding-top:100px;
+}
+#intro{
+    width: 20%;
+    font-size: smaller;
+    color:black;
+    margin-inline: 420px;
+    padding-block:200px;
+    background-color: white;
+    opacity: 60%;
+    text-align: center;
+}
+#offer{
+    padding-block:390px;
+}
+li{
+    display:inline;
+}
+main{
+    position:relative;
+    width:100%;
+    text-align: center;
+    top: 100px;
+    padding-bottom: 300px;
+}
+form{
+    padding:40px;
+}
+img{top:500px;
+z-index:-5;}
+input{
+    padding:20px;
+    width: 80%;
+}
+h2{color:antiquewhite;
+}
+h3{padding-top: 30px;
+    color:antiquewhite;}
+footer{
+    background-color: rgb(81, 91, 61);
+    color: white;
+    opacity: calc(70%);
+    width:100%;
+    position:absolute;
+    text-align: center;
+    margin-bottom: -10px;      /* remove bottom whitespace */
+    padding-bottom: 5px;
+    height: 2.5cm;
+}
